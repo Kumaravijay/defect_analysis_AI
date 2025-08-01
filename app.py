@@ -24,7 +24,28 @@ with st.expander("About the Application", expanded=True, icon="ℹ️"):
 key = os.getenv('Google_API_Key')
 genai.configure(api_key=key)
 
+
+
 st.subheader("Upload an Image for Analysis")
+with st.sidebar:
+    st.title("📄 App Info")
+    st.info(" A prototype app to automatically detect and analyze structural defects in images using AI", icon="🤖")
+    # Using an expander for a cleaner look
+    with st.expander("👤 About the Creator"):
+        st.markdown("""
+        **Created by:**             
+        [Kumara Vijay M G]
+        
+        Feel free to connect for further details or collab opportunities!
+        
+     ---
+        
+        📧 **Email:** [Kumaravijay2626@gmail.com](mailto:kumaravijay2626@gmail.com)
+        
+        🔗 **LinkedIn:** [linkedin.com/in/Kumaravijay](https://www.linkedin.com/in/kumara-vijay-m-g-71a639317/)
+        
+        🐙 **GitHub:** [github.com/Kumaravijay](https://github.com/Kumaravija)
+        """)
 input_image = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
 
 if input_image:
