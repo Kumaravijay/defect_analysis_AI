@@ -1,6 +1,7 @@
 # 🔬 AI-Powered Defect Recognition Suite
 
 This project is a Streamlit web application that serves as a prototype for an AI-powered defect recognition system. It leverages the Google Generative AI API (specifically the Gemini Pro Vision model) to analyze user-uploaded images of industrial components or structures, identify potential defects, and provide a detailed report.
+web App Link : https://defect-recognition-kumara-vijay.streamlit.app/
 
 ![App Screenshot](<img width="905" height="422" alt="image" src="https://github.com/user-attachments/assets/d97c2811-3d35-4769-9165-72ec2c16d33a" />
 )
